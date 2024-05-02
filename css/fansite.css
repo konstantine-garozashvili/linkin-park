@@ -1,0 +1,170 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body { 
+    
+    
+     
+    font-family: "Raleway", sans-serif;
+    
+  }
+
+
+
+
+  /* starting of linkin park crawling my favourite :D video bg */
+
+#background-video {
+  width: 100vw;
+
+
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+  main { 
+    font-family: "Raleway", sans-serif;
+    }
+  
+
+  @media screen and (max-width: 580px) {
+    nav.navbar {
+      padding: 20px 10px !important;
+    }
+}
+
+
+
+#navbar {
+    overflow: hidden;
+    
+    padding: 20px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+  }
+  div#logo {margin-left:50px ;}
+  div#navbar-right{margin-right: 50px;}
+  #navbar a {
+    
+    color: rgb(221, 217, 217);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 300;
+    font-family: "Raleway";
+    text-transform: uppercase;
+  }
+  
+  #navbar{
+    font-size: 35px;
+    font-weight: 100;
+    transition: 0.4s;
+  }
+  
+  #navbar a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: 1s;
+
+  }
+  
+ 
+  
+  #logotxt{
+ align-self: flex-start;
+  }
+
+  #navbar > #logo {
+    display: flex;
+    justify-content: row;
+  }
+
+  #navbar > #logo:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+  #navbar > #logo > a#logotxt  {
+
+    padding: 30px 0px; 
+    font-size: 25px;
+    white-space: nowrap;
+  }
+  
+  div#navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+
+ /* responsive hamburger menu */
+
+    @media screen and (max-width: 1900px) {
+      #navbar-right a {display: none;}
+      #navbar-right a.icon {
+        float: right;
+        display: block;
+      }
+    }
+
+
+
+    
+    
+    @media screen and (max-width: 1900px) {
+      .rightnav.responsive {position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        
+      
+      
+      
+      }
+      .rightnav.responsive .icon {
+        position: absolute;
+        right: 30px;
+        top: 0;
+        
+      }
+      .rightnav.responsive a {
+        
+        display: block!important;
+        
+        text-align: right;
+        z-index: 9999;
+        
+      }
+    }
+
+    .rightnav > .icon {
+      display: none;
+    }
+
+
+
+
+
+  
+    
+    
+    
+    
+
+
+
